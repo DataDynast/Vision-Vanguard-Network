@@ -1,0 +1,1 @@
+// Main forum component (e.g., listing threads)

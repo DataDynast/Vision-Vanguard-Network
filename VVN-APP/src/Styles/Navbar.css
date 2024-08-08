@@ -1,31 +1,49 @@
 /* Navbar.css */
 .navbar {
-    background-color: #333; /* Dark background for the navbar */
-    padding: 1rem; /* Padding around the navbar */
-    display: flex;
-    justify-content: center; /* Center content horizontally */
-  }
-  
-  .navbar-menu {
-    list-style: none; /* Remove default list styling */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
-    display: flex; /* Align items horizontally */
-  }
-  
-  .navbar-item {
-    margin: 0 1rem; /* Spacing between items */
-  }
-  
-  .navbar-item a {
-    color: white; /* Text color for links */
-    text-decoration: none; /* Remove underline from links */
-    font-size: 1.2rem; /* Font size for links */
-    transition: color 0.3s ease; /* Smooth color transition on hover */
-  }
-  
-  .navbar-item a:hover {
-    text-decoration: underline; /* Underline on hover */
-    color: #ddd; /* Lighter color on hover */
-  }
-  
+  background-color: #333; /* Dark background for the navbar */
+  padding: 1rem; /* Padding around the navbar */
+  display: flex;
+  justify-content: space-between; /* Space between menu and sign-in button */
+  align-items: center; /* Vertically center items */
+}
+
+.navbar-menu {
+  list-style: none; /* Remove default list styling */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Align items horizontally */
+}
+
+.navbar-item {
+  margin: 0 1rem; /* Spacing between items */
+}
+
+.navbar-item a {
+  color: white; /* Text color for links */
+  text-decoration: none; /* Remove underline from links */
+  font-size: 1.2rem; /* Font size for links */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.navbar-item a:hover {
+  text-decoration: underline; /* Underline on hover */
+  color: #ddd; /* Lighter color on hover */
+}
+
+.navbar-sign-in {
+  margin-left: 1rem; /* Add some space between menu and sign-in button */
+}
+
+.navbar-sign-in button {
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-sign-in button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}

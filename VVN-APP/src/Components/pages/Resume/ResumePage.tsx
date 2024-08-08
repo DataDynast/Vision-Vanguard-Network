@@ -1,0 +1,1 @@
+//  # Resume management component
